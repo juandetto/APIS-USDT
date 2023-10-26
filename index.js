@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const apiUrl = "https://criptoya.com/api/buenbit/usd/ars/0.1";
 
     // Elementos de la página donde se mostrarán los precios de bid y ask
-    const bidPriceElement = document.getElementById("bid");
-    const askPriceElement = document.getElementById("ask");
+    const bidPriceElement = document.getElementById("bidPrica");
+    const askPriceElement = document.getElementById("askPrice");
 
     // Realizar la solicitud a la API
     fetch(apiUrl)
